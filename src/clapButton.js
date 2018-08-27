@@ -1,6 +1,7 @@
 import React , { Component } from 'react';
 
 import { Platform, StyleSheet, Text, Animated, View, TouchableOpacity, Dimensions, Image } from 'react-native';
+import { SimpleLineIcons } from '@expo/vector-icons';
 
 import ClapBubble from './clapBubble.js';
 
@@ -38,7 +39,7 @@ export default class ClapButton extends Component {
         return (
             <View style = {{flex:1}} >
             <TouchableOpacity onPress={this.clap} activeOpacity={0.5} style={styles.clapButton}>
-                <Image source={require('../images/clap.png')} style={styles.clapImage}/>
+                <SimpleLineIcons name="like" style={styles.clapImage} size={28} color="#66CCCC"/>
             </TouchableOpacity>
             {this.renderClaps()}
             </View>
@@ -54,7 +55,7 @@ const styles = StyleSheet.create ( {
         height : 60,
         width : 60,
         borderRadius : 30,
-        borderWidth : 1,
+        borderWidth : 2,
         borderColor : '#66CCCC',
         backgroundColor : '#fff',
         elevation : 5,
@@ -65,8 +66,8 @@ const styles = StyleSheet.create ( {
         zIndex: 1,
     },
     clapImage : {
-        height : 35,
-        width : 35,
+        height : 28,
+        width : 28,
     },
 });
 
