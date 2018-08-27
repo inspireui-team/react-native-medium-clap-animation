@@ -1,8 +1,9 @@
 {
-  "expoServerPort": null,
-  "packagerPort": null,
-  "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 11596,
+  "expoServerNgrokUrl": "https://dg-uzd.spotui.react-native-medium-clap-animation.exp.direct",
+  "packagerNgrokUrl": "https://packager.dg-uzd.spotui.react-native-medium-clap-animation.exp.direct",
+  "ngrokPid": 11612,
+  "devToolsPort": 19002
 }
