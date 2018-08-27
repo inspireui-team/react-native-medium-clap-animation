@@ -3,6 +3,8 @@
     "name": "Medium Clap animation in React Native",
     "slug": "clap-animation",
     "version": "0.0.1",
-    "sdkVersion": "29.0.0"
+    "sdkVersion": "29.0.0",
+    "description": "Medium Clap animation in React Native ",
+    "githubUrl": "https://github.com/inspireui-team/react-native-medium-clap-animation"
   }
 }
